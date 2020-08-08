@@ -8,6 +8,8 @@ Commands, Tools, ... all good stuff for developers
 
 ## Python
 
+Python is a programming language that lets you work quickly and integrate systems more effectively.
+
 * [BDD](Python/BDD.md)
 * [Django](Python/Django.md)
 * [Ecommerce](Python/Ecommerce.md)
@@ -23,6 +25,12 @@ Commands, Tools, ... all good stuff for developers
 * [BDD](Android/BDD.md)
 * [Tools](Android/Tools.md)
 
+## Go
+
+Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+* [Libraries](Go/Libraries.md)
+
 ## Erlang
 
 is a concurrent, fault tolerant programming language developed at Ericsson
@@ -31,6 +39,8 @@ is a concurrent, fault tolerant programming language developed at Ericsson
 * [Tools](Erlang/Tools.md)
 
 ## PHP
+
+* [Wordpress](PHP/Wordpress.md)
 
 ## JavaScript
 
@@ -57,4 +67,4 @@ is a concurrent, fault tolerant programming language developed at Ericsson
 ## Others
 
 * [Testing](Others/Testings.md)
-
+* [i18n](Others/i18n.md)

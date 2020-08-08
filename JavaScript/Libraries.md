@@ -29,3 +29,9 @@ Lightweight fuzzy-search library. Zero dependencies.
 Meteor is an open source platform for web, mobile, and desktop.
 
 <https://www.meteor.com>
+
+## ngx-admin
+
+The most popular admin dashboard based on Angular 9+ and Nebular with Eva Design System support. Free and Open Source for personal and commercial purposes.
+
+<https://akveo.github.io/ngx-admin/>
