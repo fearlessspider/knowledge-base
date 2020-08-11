@@ -35,3 +35,9 @@ Meteor is an open source platform for web, mobile, and desktop.
 The most popular admin dashboard based on Angular 9+ and Nebular with Eva Design System support. Free and Open Source for personal and commercial purposes.
 
 <https://akveo.github.io/ngx-admin/>
+
+## ngx-datatable
+
+is a Angular component for presenting large and complex data.
+
+<https://swimlane.gitbook.io/ngx-datatable/>
