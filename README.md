@@ -10,6 +10,7 @@ Commands, Tools, ... all good stuff for developers
 
 Python is a programming language that lets you work quickly and integrate systems more effectively.
 
+* [Libraries](Python/Libraries.md)
 * [BDD](Python/BDD.md)
 * [Django](Python/Django.md)
 * [Ecommerce](Python/Ecommerce.md)
@@ -22,8 +23,13 @@ Python is a programming language that lets you work quickly and integrate system
 
 ## Android
 
+* [Libraries](Android/Libraries.md)
 * [BDD](Android/BDD.md)
 * [Tools](Android/Tools.md)
+
+## Kotlin
+
+* [Libraries](Kotlin/Libraries.md)
 
 ## Go
 
