@@ -36,3 +36,9 @@ Connaisseur is an admission controller for Kubernetes that integrates Image Sign
 A Flake8 plugin that checks Python tests follow the Arrange-Act-Assert pattern.
 
 <https://github.com/jamescooke/flake8-aaa/>
+
+## MechanicalSoup
+
+A Python library for automating interaction with websites.
+
+<https://github.com/MechanicalSoup/MechanicalSoup>
