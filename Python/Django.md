@@ -5,7 +5,7 @@
 According to the [translation documentation](https://docs.djangoproject.com/en/dev/topics/i18n/translation/) you can use the available language tools either in the template or in the python code.
 
 In the template, using the [get_language_info](https://docs.djangoproject.com/en/dev/topics/i18n/translation/#get-language-info) template tag:
-
+{% raw %}
 ```jinja2
 {% get_language_info for "pl" as lang %}
 
@@ -15,9 +15,11 @@ Name in English: {{ lang.name }}<br />
 Bi-directional: {{ lang.bidi }}
 Name in the active language: {{ lang.name_translated }}
 ```
+{% endraw %}
 
 which can be combined with other tags and build a mechanism that allows you to [change languages](https://docs.djangoproject.com/en/dev/topics/i18n/translation/#switching-language-in-templates):
 
+{% raw %}
 ```jinja2
 {% for lang_code, lang_name in languages %}  
    {% if lang_code != LANGUAGE_CODE %}      
@@ -30,4 +32,4 @@ which can be combined with other tags and build a mechanism that allows you to [
    {% endif %}
  {% endfor %}
 ```
-
+{% endraw %}
