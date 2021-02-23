@@ -6,15 +6,13 @@ According to the [translation documentation](https://docs.djangoproject.com/en/d
 
 In the template, using the [get_language_info](https://docs.djangoproject.com/en/dev/topics/i18n/translation/#get-language-info) template tag:
 {% raw %}
-'''jinja
-{% get_language_info for "pl" as lang %}
+    {% get_language_info for "pl" as lang %}
 
-Language code: {{ lang.code }}<br />
-Name of language: {{ lang.name_local }}<br />
-Name in English: {{ lang.name }}<br />
-Bi-directional: {{ lang.bidi }}
-Name in the active language: {{ lang.name_translated }}
-'''
+    Language code: {{ lang.code }}<br />
+    Name of language: {{ lang.name_local }}<br />
+    Name in English: {{ lang.name }}<br />
+    Bi-directional: {{ lang.bidi }}
+    Name in the active language: {{ lang.name_translated }}
 {% endraw %}
 
 which can be combined with other tags and build a mechanism that allows you to [change languages](https://docs.djangoproject.com/en/dev/topics/i18n/translation/#switching-language-in-templates):
