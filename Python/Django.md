@@ -6,7 +6,7 @@ According to the [translation documentation](https://docs.djangoproject.com/en/d
 
 In the template, using the [get_language_info](https://docs.djangoproject.com/en/dev/topics/i18n/translation/#get-language-info) template tag:
 
-```python
+```jinja2
 {% get_language_info for "pl" as lang %}
 
 Language code: {{ lang.code }}<br />
@@ -18,7 +18,7 @@ Name in the active language: {{ lang.name_translated }}
 
 which can be combined with other tags and build a mechanism that allows you to [change languages](https://docs.djangoproject.com/en/dev/topics/i18n/translation/#switching-language-in-templates):
 
-```python
+```jinja2
 {% for lang_code, lang_name in languages %}  
    {% if lang_code != LANGUAGE_CODE %}      
      {% get_language_info for lang_code as lang_info %}
